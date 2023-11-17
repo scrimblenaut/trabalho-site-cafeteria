@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    padding-top: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+section {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(34, 30, 30);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #bd6614;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#li1 {
+    font-size: 18px;
+}
+
+header .logo {
+    top: 6%;
+    left: 1%;
+    position: absolute;
+    width: 90px;
+}
+
+header .perfil {
+    top: 26%;
+    right: 1%;
+    position: absolute;
+    width: 50px;
+    display: flex;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    text-overflow: clip;
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 70%;
+}
+
+.product h2 {
+    font-size: 1.4em;
+    margin-top: 5px;
+}
+
+.product p {
+    margin: 5px 0;
+}

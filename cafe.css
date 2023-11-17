@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding-top: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('img/Wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background-color: #bd6614;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#li1 {
+  font-size: 18px;
+}
+
+header .perfil {
+  top: 26%;
+  right: 1%;
+  position: absolute;
+  width: 50px;
+  display: flex;
+}
+
+header .logo {
+  top: 6%;
+  left: 1%;
+  position: absolute;
+  width: 90px;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul li a {
+  position: relative;
+  text-overflow: clip;
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+@keyframes cor {
+  0% {
+    color: rgb(255, 251, 0);
+  }
+
+  20% {
+    color: rgb(0, 255, 0);
+  }
+
+  40% {
+    color: rgb(0, 153, 255);
+  }
+
+  60% {
+    color: rgb(143, 5, 255);
+  }
+
+  80% {
+    color: #bd6614;
+  }
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content .textBox {
+  position: relative;
+  max-width: 600px;
+}
+
+.content .textBox h2 {
+  padding-top: 48px;
+  color: #f1ebeb;
+  font-size: 4em;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+
+.content .textBox h2 span {
+  animation-duration: 6s;
+  animation-name: cor;
+  color: #bd6614;
+  font-size: 1.2em;
+  font-weight: 900;
+}
+
+.content .textBox p {
+  color: #f1ebeb;
+  position: relative;
+}
+
+.content .textBox a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: #bd6614;
+  color: #2b2828;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-align: center;
+}

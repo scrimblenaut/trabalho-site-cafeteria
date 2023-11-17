@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    padding-top: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(34, 30, 30);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #bd6614;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#li1 {
+    font-size: 18px;
+}
+
+header .perfil {
+    top: 26%;
+    right: 1%;
+    position: absolute;
+    width: 50px;
+    display: flex;
+}
+
+header .logo {
+    top: 6%;
+    left: 1%;
+    position: absolute;
+    width: 90px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    text-overflow: clip;
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.textBox {
+    color: #ffffff;
+    font-size: 1.2em;
+    left: 50%;
+    position: absolute;
+    top: 14%;
+}
+
+.MENU {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 16%;
+}
+
+.menu {
+    line-height: 202%;
+    max-width: 720px;
+    position: absolute;
+    right: 84%;
+}
+
+.menu ul {
+    color: white;
+    list-style: none;
+}
+
+.menu ul li h2 {
+    color: #bd6614;
+}
+
+.menu h2 {
+    color: #bd6614;
+}
+
+.menupreço {
+    line-height: 202%;
+    max-width: 720px;
+    position: absolute;
+    left: 24%;
+    list-style: none;
+}
+
+.menupreço ul {
+    color: white;
+    list-style: none;
+}
+
+.menupreço ul li {
+    word-spacing: 60px;
+}
+
+.menupreço h2 {
+    word-spacing: 10px;
+    color: #32f0fd;
+}
+
+.menu2 {
+    line-height: 202%;
+    top: 24%;
+    max-width: 720px;
+    position: absolute;
+    right: 34%;
+}
+
+.menu2 ul {
+    list-style: none;
+    color: white;
+}
+
+.menu2 h2 {
+    color: #bd6614;
+}
+
+.menupreço2 {
+    top: 24%;
+    line-height: 202%;
+    max-width: 720px;
+    position: absolute;
+    right: 22%;
+    list-style: none;
+}
+
+.menupreço2 ul li {
+    color: white;
+    list-style: none;
+}
+
+.menupreço2 h2 {
+    color: #32f0fd;
+}

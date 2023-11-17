@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="no-js" dir="ltr" lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <section>
+        <header>
+            <a href="login.html"><img src="img/imagemperfil.png" class="perfil" /></a>
+            <img src="img/gajahlogo.png" class="logo" />
+            <ul>
+                <li id="li1"><a href="cafe-1.html">Pagina inicial</a></li>
+                <li id="li1"><a href="menu.html">Menu</a></li>
+                <li id="li1"><a href="Produtos.html">Nossos Produtos</a></li>
+                <li id="li1"><a href="sobre.html">Sobre nós</a></li>
+            </ul>
+        </header>
+    </section>
+
+    <form class="box" action="processar_login.php" method="POST">
+
+        <label for="ronni">Nome de Usuário:</label>
+        <input type="text" id="ronni" name="ronni" required="">
+
+        <label for="123">Senha:</label>
+        <input type="password" id="123" name="123" required="">
+
+        <input type="submit" value="Entrar">
+        <div id="error-message" style="color: red;"></div>
+    </form>
+    </div>]
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const erro = urlParams.get("erro");
+
+        if (erro === "1") {
+            const errorMessage = document.getElementById("error-message");
+            errorMessage.textContent = "Usuário e/ou senha incorretos. Por favor, tente novamente.";
+        }
+    </script>
+</body>
+
+</html>
